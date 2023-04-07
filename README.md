@@ -5,3 +5,6 @@
 
 ## Аскинема игры "Проверка на четность"
 [![asciicast](https://asciinema.org/a/I1b6jiQGiLxFpeRXvzpz0xPsx.svg)](https://asciinema.org/a/I1b6jiQGiLxFpeRXvzpz0xPsx)
+
+## Аскинема игры "Калькулятор"
+[![asciicast](https://asciinema.org/a/mpLfkSDvg6EBCANjI1t1XYiI2.svg)](https://asciinema.org/a/mpLfkSDvg6EBCANjI1t1XYiI2)

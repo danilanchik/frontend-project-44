@@ -27,4 +27,3 @@ const playEvenGame = () => {
 };
 
 export default playEvenGame;
-
