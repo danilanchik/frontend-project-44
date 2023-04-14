@@ -4,7 +4,10 @@
 <a href="https://codeclimate.com/github/danilanchik/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/41a207fd3fdca0a3f761/maintainability" /></a>
 
 ## Аскинема игры "Проверка на четность"
-[![asciicast](https://asciinema.org/a/I1b6jiQGiLxFpeRXvzpz0xPsx.svg)](https://asciinema.org/a/I1b6jiQGiLxFpeRXvzpz0xPsx)
+[![asciicast](https://asciinema.org/a/577473.svg)](https://asciinema.org/a/577473)
 
 ## Аскинема игры "Калькулятор"
-[![asciicast](https://asciinema.org/a/mpLfkSDvg6EBCANjI1t1XYiI2.svg)](https://asciinema.org/a/mpLfkSDvg6EBCANjI1t1XYiI2)
+[![asciicast](https://asciinema.org/a/575411.svg)](https://asciinema.org/a/575411)
+
+## Аскинема игры "НОД"
+[![asciicast](https://asciinema.org/a/577470.svg)](https://asciinema.org/a/577470)
