@@ -1,4 +1,5 @@
-const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+import runGame from '../index.js';
+import getRandomInt from '../utils.js';
 
 const operators = ['+', '-', '*'];
 
@@ -15,7 +16,7 @@ const calculate = (a, b, operator) => {
   }
 };
 
-export const generateGameData = () => {
+const getQuestionAndAnswer = () => {
   const num1 = getRandomInt(1, 100);
   const num2 = getRandomInt(1, 100);
   const operator = operators[getRandomInt(0, operators.length - 1)];
@@ -24,4 +25,10 @@ export const generateGameData = () => {
   return [question, correctAnswer];
 };
 
-export const gameDescription = 'What is the result of the expression?';
+const gameDescription = 'What is the result of the expression?';
+
+const runCalcGame = () => {
+  runGame(gameDescription, getQuestionAndAnswer);
+};
+
+export default runCalcGame;

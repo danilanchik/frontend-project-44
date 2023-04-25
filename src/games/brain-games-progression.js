@@ -1,4 +1,5 @@
-const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+import runGame from '../index.js';
+import getRandomInt from '../utils.js';
 
 const generateProgression = (start, step, length) => {
   const progression = [];
@@ -8,7 +9,7 @@ const generateProgression = (start, step, length) => {
   return progression;
 };
 
-export const generateGameData = () => {
+const getQuestionAndAnswer = () => {
   const start = getRandomInt(1, 100);
   const step = getRandomInt(1, 10);
   const length = getRandomInt(5, 10);
@@ -20,4 +21,10 @@ export const generateGameData = () => {
   return [question, correctAnswer];
 };
 
-export const gameDescription = 'What number is missing in the progression?';
+const gameDescription = 'What number is missing in the progression?';
+
+const runProgressionGame = () => {
+  runGame(gameDescription, getQuestionAndAnswer);
+};
+
+export default runProgressionGame;

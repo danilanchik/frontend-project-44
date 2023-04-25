@@ -1,4 +1,5 @@
-const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+import runGame from '../index.js';
+import getRandomInt from '../utils.js';
 
 const isPrime = (num) => {
   if (num < 2) return false;
@@ -8,10 +9,14 @@ const isPrime = (num) => {
   return true;
 };
 
-export const generateGameData = () => {
+const generateGameData = () => {
   const question = getRandomInt(1, 100);
   const correctAnswer = isPrime(question) ? 'yes' : 'no';
   return [question, correctAnswer];
 };
 
-export const gameDescription = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+const gameDescription = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+
+const runPrimeGame = () => runGame(gameDescription, generateGameData);
+
+export default runPrimeGame;
